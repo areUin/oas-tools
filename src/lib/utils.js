@@ -40,7 +40,7 @@ var fixNullable = function(schema) {
 var generateName = function(input, nameFor) {
   var chars = 'AaBbCcDdEeFfGgHhIiJjKkLlMmNnOoPpQqRrSsTtUuVvWwXxYyZz0123456789\\-\\/';
   var name = validator.whitelist(input, chars)
-  console.debug("Utils#generateName: name: %o, input: %o, nameFor: %o",name,input,nameFor)
+  //console.debug("Utils#generateName: name: %o, input: %o, nameFor: %o",name,input,nameFor)
   switch (nameFor) {
     case "controller":
       name += "Controller";
