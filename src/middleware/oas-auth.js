@@ -66,6 +66,8 @@ module.exports = (oasDoc) => {
                         break;
                     case 'put':
                         action = 'update';
+                    case 'patch':
+                        action = 'update';
                         break;
                     case 'delete':
                         action = 'delete';
